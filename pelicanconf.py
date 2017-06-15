@@ -57,7 +57,6 @@ NEWS_ITEMS = 5
 # Plugins
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['render_math','pelicanfly']
-#GOOGLE_ANALYTICS = "UA-37266550-1"
 
 
 # Feed generation is usually not desired when developing
