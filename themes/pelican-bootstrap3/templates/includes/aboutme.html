@@ -1,0 +1,11 @@
+<div id="aboutme">
+    {% if AVATAR %}
+        <p>
+            <img class="img-thumbnail img-responsive" src="{{ AVATAR }}"/>
+        </p>
+    {% endif %}
+    
+    {% for line in ABOUT_ME %}
+    <p>{{ line }}</p>
+    {% endfor %}
+</div>

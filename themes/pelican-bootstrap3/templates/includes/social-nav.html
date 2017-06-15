@@ -1,0 +1,15 @@
+{% for s in SOCIAL %}
+	{% if s[2] %}
+		{% set name_sanitized = s[2]|lower|replace('+','-plus')|replace(' ','-') %}
+	{% else %}
+		{% set name_sanitized = s[0]|lower|replace('+','-plus')|replace(' ','-') %}
+	{% endif %}
+	{% if name_sanitized in ['flickr', 'spotify', 'stack-overflow', 'weibo'] %}
+		{% set iconattributes = '"fa fa-' ~ name_sanitized ~ ' fa-2x"' %}
+	{% elif name_sanitized in ['boardgamegeek'] %}
+		{% set iconattributes = '"fa fa-gamepad fa-2x"' %}
+	{% else %}
+		{% set iconattributes = '"fa fa-' ~ name_sanitized ~ '-square fa-2x"' %}
+	{% endif %}
+<li class="social-bar"><a href="{{ s[1] }}" title="{{ s[0] }}"><i class={{ iconattributes }} ></i> {# {{ s[0] }} #}</a></li>
+{% endfor %}

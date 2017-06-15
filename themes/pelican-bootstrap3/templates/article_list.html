@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+    <section id="content">
+        <h1> Archives </h1>
+        <div class="entry-content">
+			<dl class="dl-horizontal" id="media-list">
+				{% for article in articles|sort(attribute='date')|reverse %}
+					<dt>
+						<span class="categories-timestamp"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></span>
+					</dt>
+					<dd>
+					  <a href='{{ article.url }}'>
+						{{ article.title }}{% if article.subtitle %} - {{ article.subtitle }}{% endif %}
+					  </a>
+					</dd>
+				{% endfor %}
+			</dl>
+        </div>
+    </section>
+{% endblock %}
