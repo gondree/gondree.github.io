@@ -8,6 +8,8 @@ I am interested in security pedagogy, applied cryptography, efficient secure com
 
 ### Publications
 
+* Francisco Tacliad, Thuy D. Nguyen and Mark Gondree, "DoS Exploitation of Allen-Bradley's Legacy Protocol through Fuzz Testing," in the Annual Industrial Control System Security (ICSS) Workshop at ACSAC 2017.
+     [:fa-file-pdf-o:](pdfs/tacliad_icss_17.pdf "PDF") [:fa-file-powerpoint-o:](pdfs/tacliad_icss_slides_17.pdf "slides")
 * Peyton Price, Nicholas Leyba, Mark Gondree, Zachary Staples, and Thomas Parker. "Asset Criticality in Mission Reconfigurable Cyber Systems and its Contribution to Key Cyber Terrain," Hawaii International Conference on System Sciences, 2017. 
     [:fa-file-o:](http://hdl.handle.net/10125/41893 "DOI")
 * Portia Pusey, Mark Gondree, Zachary Peterson. "The Outcomes of Cybersecurity Competitions and Implications for Underrepresented Populations," *IEEE Security & Privacy*, Volume 14, Issue 6 (Nov/Dec), 2016.
