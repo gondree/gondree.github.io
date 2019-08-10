@@ -10,7 +10,7 @@ To sign-up for an advising appointment, click the button below. *If the button i
 <!--- disabled button 
 <p class="text-center"><a href="#" role="button" class="btn btn-lg btn-primary disabled">Go to Advising Sign-up</a></p>
 <!--- enabled button --->
-<p class="text-center"><a href="https://www.signupgenius.com/go/5080f4da8ac2aa0f49-appointments" role="button" class="btn btn-lg btn-primary">Go to Advising Sign-up</a></p>
+<p class="text-center"><a href="https://calendar.google.com/calendar/selfsched?sstoken=UUEtY0czVTZpOFdBfGRlZmF1bHR8Y2EwMzM2YTVkNjQzNmZlNmQzODJkNmE3ZjM1YzkyZTc" role="button" class="btn btn-lg btn-primary">Go to Advising Sign-up</a></p>
 <!--- --->
 
 **Before your appointment**:
