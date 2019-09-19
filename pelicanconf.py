@@ -43,9 +43,9 @@ ABOUT_ME = [
     ]),
 
 '<br>'.join([
-    "PGP KeyID <a href='https://pgp.mit.edu/pks/lookup?op=get&search=0x56968F5D51091591'>0x56968f5d51091591</a>",
-    "<tt>217E 9CD9 A4A3 B9DA 871D",
-    "A204 660A 01EB 0A5B 89A1</tt>"
+    "PGP KeyID <a href='https://keyserver.ubuntu.com/pks/lookup?search=0x56968f5d51091591&fingerprint=on&op=index'>0x56968f5d51091591</a>",
+    "<tt>D91C D776 C8CC 0CE4 E23D",
+    "7E56 5696 8F5D 5109 1591</tt>"
     ])
 ]
 
