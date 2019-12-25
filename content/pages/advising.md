@@ -21,7 +21,7 @@ To sign-up for an advising appointment, click the button below. *If the button i
 
 
 **Advising Resources**:
-[SSU Resources](http://web.sonoma.edu/advising/), [CS Degree Requirements](http://www.cs.sonoma.edu/advising/) and [SSU Advising Videos](https://web.sonoma.edu/socsci/Advising%20Resources/index.html). *Highlights: [How to read your ARR](https://www.youtube.com/watch?v=p9-M_9ul4yc), [How to calculate your GPA](http://web.sonoma.edu/advising/gpa/), [How to use SeaWolf Scheduler](http://web.sonoma.edu/advising/scheduler), [How to use the degree planner](http://web.sonoma.edu/advising/degree-planner.html)*.
+[SSU Resources](http://advising.sonoma.edu/), [CS Degree Requirements](http://www.cs.sonoma.edu/advising/) and [SSU Advising Videos](https://www.youtube.com/channel/UCLXWneJfIzssV8bUlwr3aFQ/videos). *Highlights: [How to read your ARR](https://www.youtube.com/watch?v=p9-M_9ul4yc), [How to calculate your GPA](article/gpa-calculator.html), [How to use SeaWolf Scheduler](http://advising.sonoma.edu/tools-tutorials/seawolf-scheduler), [How to use the degree planner](http://advising.sonoma.edu/tools-tutorials/degree-planner)*.
 
 
 ## Student Scholars
