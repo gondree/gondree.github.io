@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>GPA Calculator - Mark Gondree</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="//www.gondree.com/images/favicon.ico" rel="icon">
+
+<link rel="canonical" href="//www.gondree.com/article/gpa-calculator.html">
+
+        <meta name="author" content="Mark Gondree" />
+        <meta name="keywords" content="advising" />
+        <meta name="description" content="This calculator is to help with &#34;what-if&#34; calculations, related to GPA. The intention is to help students reason about GPA for academic standing and financial aid. Completed Courses Enter the GPA Units and Quality Points from your SSU transcipt. Earned GPA Units Points GPA Totals These can be found on your unofficial SSU transcript (see sample, below). You can use either the SSU or Cumulative totals, depending on which you care about. What-If Grades Now enter the units from up to eight courses that are either in-progress, hypothetical repeats, or credits to be transferred from another institution. Be sure to …" />
+
+        <meta property="og:site_name" content="Mark Gondree" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="GPA Calculator"/>
+        <meta property="og:url" content="//www.gondree.com/article/gpa-calculator.html"/>
+        <meta property="og:description" content="This calculator is to help with &#34;what-if&#34; calculations, related to GPA. The intention is to help students reason about GPA for academic standing and financial aid. Completed Courses Enter the GPA Units and Quality Points from your SSU transcipt. Earned GPA Units Points GPA Totals These can be found on your unofficial SSU transcript (see sample, below). You can use either the SSU or Cumulative totals, depending on which you care about. What-If Grades Now enter the units from up to eight courses that are either in-progress, hypothetical repeats, or credits to be transferred from another institution. Be sure to …"/>
+        <meta property="article:published_time" content="2019-12-20" />
+            <meta property="article:section" content="2019" />
+            <meta property="article:tag" content="advising" />
+            <meta property="article:author" content="Mark Gondree" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="//www.gondree.com/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="//www.gondree.com/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="//www.gondree.com/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="//www.gondree.com/theme/css/style.css" type="text/css"/>
+        <link href="//www.gondree.com/css/mg.css" rel="stylesheet">
+
+
+        <link href="//www.gondree.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Mark Gondree ATOM Feed"/>
+
+
+
+        <link href="//www.gondree.com/feeds/2019.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Mark Gondree 2019 ATOM Feed"/>
+
+</head>
+
+<body>
+
+<div class='nav-wrapper'>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-affix">
+
+
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="//www.gondree.com/" class="navbar-brand">
+<img src="//www.gondree.com/images/icon.png" width="30" alt="Mark Gondree"/>             </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="/about">Bio</a></li>
+                    <li><a href="/teaching">Teaching</a></li>
+                    <li><a href="/research">Research</a></li>
+                    <li><a href="/advising">Advising</a></li>
+                    <li><a href="/calendar">Calendar</a></li>
+                    <li><a href="/pdfs/gondree_cv.pdf">C.V.</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+ <!-- TTS -->
+ <!-- TTS -->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3" id="sidebar">
+            <aside>
+<div id="aboutme">
+        <p>
+            <img class="img-thumbnail img-responsive" src="/images/nps.jpg"/>
+        </p>
+    
+    <p><strong>Mark Gondree</strong><br>Assistant Professor<br><a href='http://www.cs.sonoma.edu/'>CS</a>, <a href='http://www.sonoma.edu/'>Sonoma State</a><br><br><tt>gondree at gmail dot com</tt></p>
+    <p>| @<a href='http://twitter.com/mgondree'>Twitter</a> | @<a href='http://www.linkedin.com/in/markgondree'>LinkedIn</a> | <br> | @<a href='http://scholar.google.com/citations?user=Dyee0SUAAAAJ'>GoogleScholar</a> | @<a href='http://www.researchgate.net/profile/Mark_Gondree/'>ResearchGate</a> | <br> | @<a href='https://github.com/gondree'>GitHub</a> | @<a href='https://www.ohloh.net/accounts/gondree'>Ohloh</a> | @<a href='http://www.flickr.com/photos/mgondree'>Flickr</a> | <br> | @<a href='http://boardgamegeek.com/user/mgondree'>BGG</a> | @<a href='http://www.tabletopsecurity.com/'>TableTopSecurity</a> |</p>
+    <p>PGP KeyID <a href='https://keyserver.ubuntu.com/pks/lookup?search=0x56968f5d51091591&fingerprint=on&op=index'>0x56968f5d51091591</a><br><tt>D91C D776 C8CC 0CE4 E23D<br>7E56 5696 8F5D 5109 1591</tt></p>
+</div>            </aside>
+        </div>
+
+        <div class="col-md-9" id="main">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="//www.gondree.com/article/gpa-calculator.html"
+                       rel="bookmark"
+                       title="Permalink to GPA Calculator">
+                        GPA Calculator
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2019-12-20T00:00:00-08:00"> Fri 20 December 2019</time>
+    </span>
+
+
+            <span class="label label-default">By</span>
+            <a href="//www.gondree.com/about.html#Mark Gondree"><i class="fa fa-user"></i> Mark Gondree</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="//www.gondree.com/tag/advising.html">advising</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>This calculator is to help with "what-if" calculations, related to GPA. The intention is to help students reason about GPA for academic standing and financial aid.</p>
+<script src="/js/gpa.js"></script>
+
+<h3>Completed Courses</h3>
+<p>Enter the GPA Units and Quality Points from your SSU transcipt.</p>
+<table class="table table-condensed">
+    <tr>
+        <td colspan="3"></td>
+        <td><b><u>Earned</u></b></td>
+        <td><b><u>GPA Units</u></b></td>
+        <td><b><u>Points</u></b></td>
+    </tr>
+    <tr>
+        <td width="25%"><b>GPA</b></td>
+        <td width="10%" align="right"><b><input id="current_gpa" class="js-gpaCalc" readonly="readonly" style="text-align:right; border: 1px solid #ffffff;" type="text" /></b>
+        </td>
+        <td width="25%"><b>Totals</b></td>
+        <td width="10%"><input type="text" readonly="readonly" style="border: 1px solid #ffffff;" /></td>
+        <td width="10%"><input type="text" id="cum_gpa_credits" size="8" class="js-gpaCalc" placeholder="Units" style="text-align:center; border: 4px solid #597834;" onchange="updateGPA()" /></td>
+        <td width="10%"><input type="text" id="cum_gpa_points" size="8" class="js-gpaCalc" placeholder="Pts" style="text-align:center; border: 4px solid #1d59ce;" onchange="updateGPA()" /></td>
+    </tr>
+</table>
+
+<p>These can be found on your unofficial SSU transcript (see sample, below). You can use either the SSU or Cumulative totals, depending on which you care about.
+<img src="/images/transcript-sample.png" style="padding: 10px" alt="Sample Transcript" /></p>
+<h3>What-If Grades</h3>
+<p>Now enter the units from up to eight courses that are either in-progress, hypothetical repeats, or credits to be transferred from another institution. Be sure to use semester GPA credits (1 credit per quarter is 2/3 credits per semester). For example, if you are transferring a 3 credit course from an institution on the quarter system, this is 2 credits on the semester system.</p>
+<table class="table table-condensed" id="GPACalcTable">
+  <tr>
+    <th width="30%">Course</th>
+    <th width="15%" style="text-align:center;"><u>No. of Credits</u></th>
+    <th width="15%" style="text-align:center;"><u>Expected</u></th>
+    <th width="15%" style="text-align:center;"><u>Repeat?</u></th>
+    <th width="15%" style="text-align:center;"><u>Previous</u></th>
+  </tr>
+
+  <tr>
+    <td align="left">1) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits1" class="js-gpaCalc" onchange="genable1();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade1">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat1" onclick="enable1();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade1">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+  <tr>
+    <td align="left">2) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits2" class="js-gpaCalc" onchange="genable2();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade2">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat2" onclick="enable2();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade2">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+  <tr>
+    <td align="left">3) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits3" class="js-gpaCalc" onchange="genable3();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade3">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat3" onclick="enable3();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade3">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+  <tr>
+    <td align="left">4) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits4" class="js-gpaCalc" onchange="genable4();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade4">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat4" onclick="enable4();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade4">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+  <tr>
+    <td align="left">5) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits5" class="js-gpaCalc" onchange="genable5();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade5">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat5" onclick="enable1();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade5">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+  <tr>
+    <td align="left">6) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits6" class="js-gpaCalc" onchange="genable6();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade6">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat6" onclick="enable2();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade6">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+  <tr>
+    <td align="left">7) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits7" class="js-gpaCalc" onchange="genable7();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade7">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat7" onclick="enable3();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade7">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+  <tr>
+    <td align="left">8) &nbsp;<input type="text" style="border: 1px solid #ffffff;" /></td>
+    <td align="center"><input id="credits8" class="js-gpaCalc" onchange="genable4();" size="8" type="text" /></td>
+    <td style="text-align:center;"><select disabled="disabled" id="grade8">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+    <td align="center"><input class="js-gpaCalc" disabled="disabled" id="repeat8" onclick="enable8();" type="checkbox" value="yes" /></td>
+    <td align="center"><select class="js-gpaCalc" disabled="disabled" id="previous_grade8">
+            <option selected="selected">-</option>
+            <option value="4">A</option>
+            <option value="3.7">A-</option>
+            <option value="3.3">B+</option>
+            <option value="3.0">B</option>
+            <option value="2.7">B-</option>
+            <option value="2.3">C+</option>
+            <option value="2.0">C</option>
+            <option value="1.7">C-</option>
+            <option value="1.3">D+</option>
+            <option value="1.0">D</option>
+            <option value="0.7">D-</option>
+            <option value="0">F</option>
+            <option value="0">W</option>
+            <option value="0">WU</option>
+        </select></td>
+  </tr>
+
+
+</table>
+
+<h3>New GPA</h3>
+<p><table class="table table-condensed">
+    <tr>
+        <td colspan="3"></td>
+        <td></td>
+        <td><b><u>GPA Units</u></b></td>
+        <td><b><u>Points</u></b></td>
+    </tr>
+    <tr>
+        <td width="25%"><b>GPA</b></td>
+        <td width="10%" align="right"><b><input id="new_gpa" class="js-gpaCalc" readonly="readonly" style="text-align:right; border: 1px solid #ffffff; background-color: #d6d6d6;" type="text" /></b>
+        </td>
+        <td width="25%"><b>Totals</b></td>
+        <td width="10%"><input type="text" readonly="readonly" style="border: 1px solid #ffffff;" /></td>
+        <td width="10%"><input type="text" id="new_gpa_credits" size="8" class="js-gpaCalc" readonly="readonly" style="text-align:center; border: 1px solid #ffffff; background-color: #d6d6d6;" /></td>
+        <td width="10%"><input type="text" id="new_gpa_points" size="8" class="js-gpaCalc" readonly="readonly" style="text-align:center; border: 1px solid #ffffff; background-color: #d6d6d6;" /></td>
+    </tr>
+</table></p>
+<p><input class="js-gpaCalc" id="calculateRate" onclick="computeNewGPA();" type="button" value="Calculate" /> &nbsp; <input class="js-gpaCalc" type="reset" value="Reset" onClick="clearForm(this.form)"></p>
+            </div>
+
+
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-12">
+         <p class="pull-right">&copy; 2019 Mark Gondree
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>           </p>
+         </div>
+      </div>
+   </div>
+</footer>
+<script src="//www.gondree.com/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="//www.gondree.com/theme/js/bootstrap.min.js"></script>
+
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="//www.gondree.com/theme/js/respond.min.js"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37266550-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+<script type="text/javascript">
+$('#navbar-affix').affix({
+	offset: {
+		top: $('#banner').outerHeight()
+	}
+});
+</script>
+
+
+</body>
+</html>
