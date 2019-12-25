@@ -56,7 +56,7 @@ NEWS_ITEMS = 5
 
 # Plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['render_math','pelicanfly']
+PLUGINS = ['render_math','pelicanfly', 'photos']
 
 
 # Feed generation is usually not desired when developing
@@ -69,15 +69,16 @@ AUTHOR_FEED_RSS = None
 PATH = 'content'
 BOOTSTRAP_THEME = ""
 
-STATIC_PATHS = ['images', 'pdfs',
+STATIC_PATHS = ['images', 'pdfs', 'extras/js',
     'extras/css/mg.css', 'extras/CNAME',
-    'extras/google14081f6503dca9ab'  # req'd for Google+ website verification
+    'extras/google14081f6503dca9ab', # req'd for Google+ website verification
 ]
 
 EXTRA_PATH_METADATA = {
-    'extras/css/mg.css': {'path': 'static/mg.css'},
+    'extras/css/mg.css': {'path': 'css/mg.css'},
     'extras/CNAME' : {'path': 'CNAME'},
     'extras/google14081f6503dca9ab' : {'path' : 'google14081f6503dca9ab.html'},
+    'extras/js/gpa.js' : {'path': 'js/gpa.js'}
 }
 
 # Category options
@@ -127,6 +128,13 @@ SOCIAL = (('twitter', 'https://twitter.com/TableTopSec'),
           ('github', 'http://github.com/tabletopsecurity')
          )
 
+# Photo plugin options
+PHOTO_LIBRARY = "./photos"
+PHOTO_GALLERY = (4096, 4096, 100)
+PHOTO_ARTICLE = (768, 768, 80)
+PHOTO_THUMB = (150, 150, 60)
+PHOTO_SQUARE_THUMB = True
+PHOTO_EXIF_REMOVE_GPS = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -135,7 +143,7 @@ SOCIAL = (('twitter', 'https://twitter.com/TableTopSec'),
 THEME = 'themes/pelican-bootstrap3'
 THEME_STATIC_PATHS=['static']
 CSS_FILE='mg.css'
-CUSTOM_CSS = 'static/mg.css'
+CUSTOM_CSS = 'css/mg.css'
 
 # Caching
 LOAD_CONTENT_CACHE = False

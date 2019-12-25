@@ -17,6 +17,7 @@
     pip install ghp-import
     pip install typogrify   # for render_math extension
     pip install fontawesome-markdown  # for font-awesome icons
+    pip install Pillow Piexif # for photos plugin
 
 ## Running Pelican for development
     # start local server

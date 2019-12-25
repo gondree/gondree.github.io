@@ -56,6 +56,18 @@
         {% endif %}
         <div class="entry-content">
             {{ page.content }}
+
+            {% if page.photo_gallery %}
+            <div class="gallery">
+                {% for title, gallery in page.photo_gallery %}
+                <h2>{{ title }}</h2>
+                    {% for name, photo, thumb, exif, caption in gallery %}
+                        <a href="{{ SITEURL }}/{{ photo }}" title="{{ name }}" exif="{{ exif }}" caption="{{ caption }}"><img src="{{ SITEURL }}/{{ thumb }}"></a>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
             {% if page.comments == 'enabled' %}
                 {% include 'includes/comments.html' %}
             {% endif %}

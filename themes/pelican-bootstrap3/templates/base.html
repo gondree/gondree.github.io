@@ -79,6 +79,10 @@
         <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/shariff/shariff.min.css" rel="stylesheet">
     {% endif %}
 
+    {% if (article and article.photo_gallery) or (page and page.photo_gallery) %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/magnific-popup.css">
+    {% endif %}
+
     {% if FEED_ALL_ATOM %}
         <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
               title="{{ SITENAME }} ATOM Feed"/>
@@ -196,6 +200,33 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bootstrap.min.js"></script>
 
+{% if (article and article.photo_gallery) or (page and page.photo_gallery) %}
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/magnific-popup.js"></script>
+<script>
+$('.gallery').magnificPopup({
+	delegate: 'a',
+	type: 'image',
+	gallery: {
+		enabled: true,
+		navigateByImgClick: true,
+		preload: [1,2]
+	},
+	image: {
+		titleSrc: function(item) {
+			if (item.el.attr('caption') && item.el.attr('exif')) {
+				return (item.el.attr('caption').replace(/\\n/g, '<br />') +
+					'<small>' + item.el.attr('title') + ' - ' + item.el.attr('exif') + '</small>');
+			}
+		return item.el.attr('title') + '<small>' + item.el.attr('exif') + '</small>';
+	} }
+});
+</script>
+{% endif %}
+
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/respond.min.js"></script>
 
@@ -214,6 +245,7 @@ $('#navbar-affix').affix({
 	}
 });
 </script>
+
 
 {% block scripts %}{% endblock %}
 </body>
