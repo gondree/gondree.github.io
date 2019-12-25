@@ -8,7 +8,7 @@ I am an Assistant Professor in the [Computer Science Department](http://www.cs.s
 
  - **Office**: Darwin 116H. [Office hours are on the SSU CS website](http://www.cs.sonoma.edu/faculty-staff/).
  - **RTP Index**: [members of my committee can access my RTP files](article/rtp.html).
- - **Art collection**: [my students are very talented](https://www.flickr.com/photos/mgondree/albums/72157632304604997).
+ - **The Fridge**: [my students are very talented](fridge).
  - **Archive**: [all notes on this site](all.html).
 
 # Recent News
