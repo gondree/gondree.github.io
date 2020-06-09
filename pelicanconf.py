@@ -111,6 +111,7 @@ MENUITEMS = (('Bio', '/about'),
              ('Research', '/research'),
              ('Advising', '/advising'),
              ('Calendar', '/calendar'),
+             ('Meeting', '/meet'),
              ('C.V.', '/pdfs/gondree_cv.pdf'),
             )
 
