@@ -9,7 +9,7 @@
 						<span class="categories-timestamp"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></span>
 					</dt>
 					<dd>
-					  <a href='{{ article.url }}'>
+					  <a href='{{ SITEURL }}/{{ article.url }}'>
 						{{ article.title }}{% if article.subtitle %} - {{ article.subtitle }}{% endif %}
 					  </a>
 					</dd>
