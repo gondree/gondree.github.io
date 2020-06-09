@@ -1,4 +1,4 @@
-Title: Get a Meeting
+Title: Meeting
 Slug: meet
 save_as: meet.html
 
