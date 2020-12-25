@@ -136,6 +136,7 @@ PHOTO_ARTICLE = (768, 768, 80)
 PHOTO_THUMB = (150, 150, 60)
 PHOTO_SQUARE_THUMB = True
 PHOTO_EXIF_REMOVE_GPS = True
+PHOTO_RESIZE_JOBS = -1
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
