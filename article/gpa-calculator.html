@@ -41,7 +41,7 @@
 
 
 
-        <link href="//www.gondree.com/feeds/2019.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="//www.gondree.com/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate"
               title="Mark Gondree 2019 ATOM Feed"/>
 
 </head>
@@ -491,7 +491,7 @@
 </table>
 
 <h3>New GPA</h3>
-<p><table class="table table-condensed">
+<table class="table table-condensed">
     <tr>
         <td colspan="3"></td>
         <td></td>
@@ -507,7 +507,8 @@
         <td width="10%"><input type="text" id="new_gpa_credits" size="8" class="js-gpaCalc" readonly="readonly" style="text-align:center; border: 1px solid #ffffff; background-color: #d6d6d6;" /></td>
         <td width="10%"><input type="text" id="new_gpa_points" size="8" class="js-gpaCalc" readonly="readonly" style="text-align:center; border: 1px solid #ffffff; background-color: #d6d6d6;" /></td>
     </tr>
-</table></p>
+</table>
+
 <p><input class="js-gpaCalc" id="calculateRate" onclick="computeNewGPA();" type="button" value="Calculate" /> &nbsp; <input class="js-gpaCalc" type="reset" value="Reset" onClick="clearForm(this.form)"></p>
             </div>
 
