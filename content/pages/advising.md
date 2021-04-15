@@ -10,8 +10,8 @@ To arrange a meeting, go to [my meeting](/meet) page.
 **Before your appointment**: Prepare and write down your questions, and review your ARR.
 
 
-** Advising Resources:** 
-[SSU Resources](http://advising.sonoma.edu/), [CS Degree Requirements](http://www.cs.sonoma.edu/advising/) and [SSU Advising Videos](https://www.youtube.com/channel/UCLXWneJfIzssV8bUlwr3aFQ/videos). *Highlights: [How to read your ARR](https://www.youtube.com/watch?v=p9-M_9ul4yc), [How to calculate your GPA](article/gpa-calculator.html), [How to use SeaWolf Scheduler](http://advising.sonoma.edu/tools-tutorials/seawolf-scheduler), [How to use the degree planner](http://advising.sonoma.edu/tools-tutorials/degree-planner)*.
+**Advising Resources:**
+[SSU Resources](http://advising.sonoma.edu/), [CS Advising](http://www.cs.sonoma.edu/advising/), [CS Program Info](http://www.cs.sonoma.edu/advising/prerequisite-chart), [GPA Calculator](article/gpa-calculator.html), and [SSU Advising Videos](https://www.youtube.com/channel/UCLXWneJfIzssV8bUlwr3aFQ/videos). *Highlights: [How to read your ARR](https://www.youtube.com/watch?v=p9-M_9ul4yc), [How to use SeaWolf Scheduler](http://advising.sonoma.edu/tools-tutorials/seawolf-scheduler), [How to use the degree planner](http://advising.sonoma.edu/tools-tutorials/degree-planner), [How to set up a SWAP](https://www.youtube.com/watch?v=AWOf8QuLGxM)*.
 
 
 ## Be a Student-Scholar
