@@ -11,7 +11,7 @@ To arrange a meeting, go to [my meeting](/meet) page.
 
 
 **Advising Resources:**
-[SSU Resources](http://advising.sonoma.edu/), [CS Advising](http://www.cs.sonoma.edu/advising/), [CS Program Info](http://www.cs.sonoma.edu/advising/prerequisite-chart), [GPA Calculator](article/gpa-calculator.html), and [SSU Advising Videos](https://www.youtube.com/channel/UCLXWneJfIzssV8bUlwr3aFQ/videos). *Highlights: [How to read your ARR](https://www.youtube.com/watch?v=p9-M_9ul4yc), [How to use SeaWolf Scheduler](http://advising.sonoma.edu/tools-tutorials/seawolf-scheduler), [How to use the degree planner](http://advising.sonoma.edu/tools-tutorials/degree-planner), [How to set up a SWAP](https://www.youtube.com/watch?v=AWOf8QuLGxM)*.
+[SSU AdvisingCentral](http://advising.sonoma.edu/), [CS Advising](http://www.cs.sonoma.edu/advising/), [CS Program Info](http://www.cs.sonoma.edu/advising/prerequisite-chart), [GPA Calculator](article/gpa-calculator.html), [AdvisingCentral @ YouTube](https://www.youtube.com/channel/UCwpIp52dVRlftWS_erhSFqQ/videos) and [Other Advising Videos](https://www.youtube.com/channel/UCLXWneJfIzssV8bUlwr3aFQ/videos). *Highlights: [How to run a What-If report](https://www.youtube.com/watch?v=CcDRuJ30r9o&feature=youtu.be), [How to read your ARR](https://www.youtube.com/watch?v=p9-M_9ul4yc), [How to set up a SWAP](https://www.youtube.com/watch?v=AWOf8QuLGxM)*.
 
 
 ## Be a Student-Scholar
