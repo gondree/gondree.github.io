@@ -21,8 +21,8 @@ USE_PAGER = False
 ABOUT_ME = [
 '<br>'.join([
     "<strong>Mark Gondree</strong>", 
-    "Assistant Professor", 
-    "<a href='http://www.cs.sonoma.edu/'>CS</a>, <a href='http://www.sonoma.edu/'>Sonoma State</a>",
+    "Associate Professor",
+    "<a href='https://cs.sonoma.edu/'>CS</a>, <a href='https://www.sonoma.edu/'>Sonoma State</a>",
     "",
     "<tt>gondree at gmail dot com</tt>"
     ]), 
