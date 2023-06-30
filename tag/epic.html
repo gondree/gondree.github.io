@@ -132,11 +132,21 @@
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="//www.gondree.com/theme/js/respond.min.js"></script>
 
-    <!-- Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YMBZSSGP2G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YMBZSSGP2G');
+</script>
+
+    <!-- Google Analytics --> <!--
     <script type="text/javascript">
 
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-37266550-1']);
+        _gaq.push(['_setAccount', 'G-YMBZSSGP2G']);
         _gaq.push(['_trackPageview']);
 
         (function () {
@@ -147,8 +157,9 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(ga, s);
         })();
-    </script>
+    </script> -->
     <!-- End Google Analytics Code -->
+
 
 <script type="text/javascript">
 $('#navbar-affix').affix({
