@@ -7,7 +7,7 @@ To sign-up for an appointment, click the button below. *If the button is disable
 <!--- disabled button 
 <p class="text-center"><a href="#" role="button" class="btn btn-lg btn-primary disabled">Go to Meeting Sign-up</a></p>
 <!--- enabled button --->
-<p class="text-center"><a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3y83YjmwNXcRX3U2MnsKKcwqDb45koUaNSlB_AbWXTOcoitoVlK5F6IAM8-i1RUGBmDVU_cqXu" role="button" class="btn btn-lg btn-primary" target=”_blank”>Go to Meeting Sign-up</a></p>
+<p class="text-center"><a href="https://calendar.google.com/calendar/u/0/appointments/AcZssZ2WPRv-Gh3Hd1SAoabX5AufinUnyoewZ79NXUw=" role="button" class="btn btn-lg btn-primary" target=”_blank”>Go to Meeting Sign-up</a></p>
 <!--- --->
 
 To request a meeting outside my appointment availability, please reach out to request a meeting at one of the times I appear available per [my calendar](/calendar). My calendar is not always up to date, so suggest a few times I appear free.
