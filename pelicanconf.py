@@ -72,6 +72,7 @@ BOOTSTRAP_THEME = ""
 STATIC_PATHS = ['images', 'pdfs', 'extras/js',
     'extras/css/mg.css', 'extras/CNAME',
     'extras/google14081f6503dca9ab', # req'd for Google+ website verification
+    'extras/gondree-public-key.asc',
 ]
 
 EXTRA_PATH_METADATA = {
