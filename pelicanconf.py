@@ -78,7 +78,8 @@ EXTRA_PATH_METADATA = {
     'extras/css/mg.css': {'path': 'css/mg.css'},
     'extras/CNAME' : {'path': 'CNAME'},
     'extras/google14081f6503dca9ab' : {'path' : 'google14081f6503dca9ab.html'},
-    'extras/js/gpa.js' : {'path': 'js/gpa.js'}
+    'extras/js/gpa.js' : {'path': 'js/gpa.js'},
+    'extras/gondree-public-key.asc' {'path': 'gondree-public-key.asc'}
 }
 
 # Category options
